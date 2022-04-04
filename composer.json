@@ -1,0 +1,24 @@
+{
+  "name": "aggrosoft/oxid-sort-news-asc",
+  "description": "Sort news list ascending",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop", "news", "sort"],
+  "homepage": "https://github.com/aggrosoft/oxid-sort-news-asc",
+  "license": "MIT",
+  "extra": {
+    "oxideshop": {
+      "blacklist-filter": [
+        "documentation/**/*.*"
+      ],
+      "target-directory": "agsortnewsasc"
+    }
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aggrosoft\\SortNewsAsc\\": "../../../source/modules/agsortnewsasc"
+    }
+  }
+}
